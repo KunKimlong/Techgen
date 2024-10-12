@@ -1,0 +1,20 @@
+@import url(style.css);
+.service{
+    width: 100%;
+}
+.service .service-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+.service .service-header .service-title{
+    font-size: 80px;
+    width: 30%;
+    text-transform: uppercase;
+    color: #099b71;
+}
+.service .service-header .service-image{
+    width: 50%;
+}
