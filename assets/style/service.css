@@ -18,3 +18,24 @@
 .service .service-header .service-image{
     width: 50%;
 }
+.service .service-display{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service .service-display .service-item{
+    width: 33%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.service .service-display .service-item .icon{
+    color: #099b71;
+    margin: 20px 0;
+}
+.service .service-display .service-item:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
