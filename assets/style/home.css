@@ -1,19 +1,19 @@
-@import url("style.css");
+@import url(style.css);
 .home{
     width: 100%;
 }
-.home-site{
+.home .home-site{
     width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     padding: 50px 80px;
 }
-.content-text{
+.home .home-site .content-text{
     width: 45%;
     padding: 30px 30px;
 }
-.content-image{
+.home .home-site .content-image{
     width: 55%;
 }
 .home .home-site .content-text h1{
@@ -29,6 +29,17 @@
     margin-top: 30px;
     border-radius: 10px;
 }
-.content-image img{
+.home .home-site .content-image img{
     width: 600px;
+}
+.home .home-list{
+    width: 100%;
+    padding:50px 110px;
+    background-color: #d1d1d1;
+}
+.home .home-list .list-head{
+    font-size: 28px;
+}
+.home .home-list .list-filter{
+    text-align: center ;
 }
