@@ -2,12 +2,15 @@
 .home{
     width: 100%;
 }
+.d-none{
+    display: none;
+}
 .home .home-site{
     width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 50px 80px;
+    padding: 50px 100px;
 }
 .home .home-site .content-text{
     width: 45%;
@@ -17,7 +20,7 @@
     width: 55%;
 }
 .home .home-site .content-text h1{
-    font-size: 70px;
+    font-size: 60px;
     width: 80%;
     color: var(--color-green);
 }
@@ -34,12 +37,51 @@
 }
 .home .home-list{
     width: 100%;
-    padding:50px 110px;
     background-color: #d1d1d1;
+}
+.home .home-list .home-list-content{
+    padding: 50px 130px;
 }
 .home .home-list .list-head{
     font-size: 28px;
 }
 .home .home-list .list-filter{
     text-align: center ;
+    margin-top: 20px;
+}
+.home .home-list .list-filter>span{
+    margin-right: 30px;
+}
+.home .home-list .list-filter .filter-by .filter-item .each-list{
+    margin: 0 20px;
+}
+.home .home-list .list{
+    width: 80%;
+    margin: 30px auto;
+}
+.home .home-list .list .list-box{
+    height: 550px;
+    position: relative;
+}
+.home .home-list .list .list-box .show-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(78, 78, 78);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.9s;
+}
+.home .home-list .list .list-box .tip{
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.5);
+}
+.home .home-list .list .list-box:hover .show-bg{
+    opacity: 0.5;
 }

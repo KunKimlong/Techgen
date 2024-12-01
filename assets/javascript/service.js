@@ -29,3 +29,8 @@ const service = [
     },
 
 ];
+const filter = [
+    'Moblie App Development',
+    'UX/UI Design',
+    'Web Development',
+]
