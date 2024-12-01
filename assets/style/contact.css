@@ -1,0 +1,160 @@
+@import url(style.css);
+.container-cont{
+    width: 100%;
+    height: 400px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: flex;
+}
+.cont-text,.cont-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+}
+.cont-text  h1{
+    font-size: 60px;
+    color:  var(--color-light-primary);
+}
+.cont-img img{
+    object-fit: cover;
+}
+.contact-mail{
+    width: 100%;
+    display: flex;
+    margin: 2px;
+    padding: 10px 30px;
+}
+.contact-mail .mail,.contact-mail .socail{
+    width: 50%;
+    padding: 5px 9%;
+}
+.touch{
+    display: flex;
+}
+.touch .for-contact{
+    margin-left: 45px;
+}
+.company-open{
+    margin-top: 25px;
+}
+.post-socail{
+    padding: 5px 9%;
+    display: flex;
+}
+.post-socail p{
+    margin-top: 15px;
+}
+.post-socail .socail{
+    margin-left: 10px;
+}
+.post-socail .socail-text{
+    margin-top: 10px;
+}
+.form-contact{
+    width: 100%;
+    padding: 5px 11%;
+    margin-top: 10px;
+}
+.form-contact form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form-input{
+    padding: 10px;
+    width: 30%;
+}
+.form-details{
+    width: 100%;
+    padding: 10px;
+}
+.form-input input,.form-details textarea{
+    padding: 15px 9px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    border: 0px;
+
+    background-color: rgb(231, 225, 225);
+}
+.form-details textarea{
+    resize: none;
+}
+.getQuote{
+    margin-top: 3px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 12px;
+    background-color: var(--color-light-primary);
+    color: white;
+}
+.start-project{
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 80px;
+    background-color: var(--color-light-primary);
+    color: white;
+    padding: 80px;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+}
+.start-project .start-detail{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.start-project .start-detail .start-detail-div{
+    width: 80%;
+}
+.start-project .start-detail .start-detail-div .greeting{
+    font-size: 20px;
+}
+.start-project .start-detail .start-detail-div .asking{
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.start-project .start-detail .start-detail-div button{
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px  0;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    padding: 15px 25px;
+}
+.start-project .start-detail .start-detail-div button a{
+    color: white;
+    padding: 15px 25px;
+}
+.start-project .start-detail .start-detail-div button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    left: -100%;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    transition: 0.8s;
+}
+.start-project .start-detail .start-detail-div button:hover::before{
+    left: 0;
+}
+.start-project .start-image{
+    width: 40%;
+    height: 300px;
+    display: flex;
+}
+.start-project .start-image .image{
+    width: 70%;
+    height: 100%;
+}
