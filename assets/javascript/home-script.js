@@ -51,3 +51,23 @@ function leaveProject(el){
     tip.classList.add('d-none')
 }
 
+var serviceDisplay  = document.querySelector('.service-display');
+var serviceContent = '';
+service.forEach(el=>{
+    var serviceLi = '';
+    el.listService.forEach(list=>{
+        serviceLi +=`
+            <li>${list}</li>
+        `;
+    })
+    serviceContent+=`
+        <div class="service-item">
+            <div class="icon">${el.icon}</div>
+            <div class="title">${el.title}</div>
+            <ul class="service-list">
+                ${serviceLi}
+            </ul>
+        </div>
+    `;
+})
+serviceDisplay.innerHTML = serviceContent;

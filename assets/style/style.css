@@ -7,6 +7,10 @@
 :root{
     --color-green:#099b71;
     --color-light-primary:#4794ff;
+    --bg-secodary:#d1d1d1;
+}
+.bg-secondary{
+    background-color: var(--bg-secodary);
 }
 a{
     text-decoration: none;
@@ -31,7 +35,7 @@ header .nav{
     padding: 20px 30px;
 }
 header .nav .nav-logo{
-    width: 150px;
+    width: 120px;
     height: 40px;
 }
 img{
