@@ -60,6 +60,7 @@
     margin: 30px auto;
 }
 .home .home-list .list .list-box{
+    margin: 20px 0;
     height: 450px;
     position: relative;
 }
