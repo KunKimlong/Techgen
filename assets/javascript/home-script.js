@@ -25,7 +25,7 @@ function renderProjects(group) {
     let txtProject = '';
     filteredProjects.forEach(el => {
         txtProject += `
-            <div class="list-box" 
+            <div class="list-box" data-aos="zoom-in"
                  onmouseleave="leaveProject(this)" 
                  onmousemove="hoverProject(event,'${el.group}',this)">
                 <img src="${el.image}" alt="${el.title}">
@@ -62,7 +62,8 @@ service.forEach(el=>{
         `;
     })
     serviceContent+=`
-        <div class="service-item">
+        <div class="service-item" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
             <div class="icon">${el.icon}</div>
             <div class="title">${el.title}</div>
             <ul class="service-list">

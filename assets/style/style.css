@@ -63,31 +63,7 @@ header .nav .nav-menu .nav-item:hover:not(:last-child) .nav-link{
 header .nav .nav-menu .nav-item .nav-link.active{
     color: var(--color-light-primary);
 }
-.mouse{
-    position: absolute;
-    z-index: 11;
-    width: 10px;
-    height: 10px;
-    background-color: var(--color-light-primary);
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 0.05s;
-    display: none;
-}
-.mouse::before{
-    content: "";
-    position: absolute;
-    z-index: 10;
-    width: 35px;
-    height: 35px;
-    border: 1px solid var(--color-light-primary);
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+
 /* footer */
 footer{
     background-color: black;
