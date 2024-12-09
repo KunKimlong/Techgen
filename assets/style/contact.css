@@ -19,7 +19,7 @@
     color:  var(--color-light-primary);
 }
 .cont-img img{
-    object-fit: cover;
+    object-fit: contain;
 }
 .contact-mail{
     width: 100%;
@@ -29,7 +29,7 @@
 }
 .contact-mail .mail,.contact-mail .socail{
     width: 50%;
-    padding: 5px 9%;
+    padding: 5px 20px;
 }
 .touch{
     display: flex;
@@ -41,7 +41,7 @@
     margin-top: 25px;
 }
 .post-socail{
-    padding: 5px 9%;
+    padding: 5px 20px;
     display: flex;
 }
 .post-socail p{
@@ -51,7 +51,15 @@
     margin-left: 10px;
 }
 .post-socail .socail-text{
+    list-style: none;
     margin-top: 10px;
+}
+.post-socail .socail-text li{
+    margin: 5px 0;
+}
+.post-socail .socail-text li a{
+    font-weight: bold;
+    cursor: pointer;
 }
 .form-contact{
     width: 100%;
@@ -59,6 +67,7 @@
     margin-top: 10px;
 }
 .form-contact form{
+    margin:50px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,13 +81,13 @@
     padding: 10px;
 }
 .form-input input,.form-details textarea{
-    padding: 15px 9px;
+    padding: 10px 9px;
     width: 100%;
     border-radius: 5px;
     margin: 5px;
     border: 0px;
-
-    background-color: rgb(231, 225, 225);
+    background-color: rgb(239, 239, 239);
+    outline: none;
 }
 .form-details textarea{
     resize: none;
@@ -94,7 +103,7 @@
 }
 .start-project{
     width: 80%;
-    margin: 10px auto;
+    margin: 50px auto;
     margin-bottom: 80px;
     background-color: var(--color-light-primary);
     color: white;

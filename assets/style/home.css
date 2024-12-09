@@ -80,7 +80,7 @@
     padding: 10px;
     color: white;
     position: absolute;
-    z-index: 2;
+    z-index: 22;
     background-color: rgba(0,0,0,0.5);
 }
 .home .home-list .list .list-box:hover .show-bg{
